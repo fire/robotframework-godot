@@ -1,0 +1,6 @@
+name: godot-robotframework
+dependencies:
+  - pip
+  - pip:
+    - robotframework
+    - robotframework-SikuliLibrary
