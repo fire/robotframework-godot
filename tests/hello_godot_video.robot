@@ -11,9 +11,10 @@ ${GODOT_BINARY}       ${CURDIR}\\..\\data\\Godot_v3.2.3-stable_win64.exe
 
 *** Test Cases ***
 Windows Godot Hello World
+    Record Video Default
     Run Godot Engine
     Expand Godot Engine
-    Record Godot Video
+    Record Video Godot
     Quit
 
 *** Keywords ***
@@ -29,8 +30,13 @@ Expand Godot Engine
 Quit
     Click    close.png
 
-Record Godot Video
-    Start Video Recording       monitor=0
-    Sleep    0.5s
+Record Video Default
+    Start Video Recording       name=default      monitor=0
+    Sleep    5s
+    Stop All Video Recordings
+
+Record Video Godot
+    Start Video Recording       name=godot      monitor=0
+    Sleep    5s
     Stop All Video Recordings
 

@@ -1,0 +1,8 @@
+https://github.com/Netflix/vmaf/releases/tag/v2.1.1
+
+https://github.com/godotengine/godot
+
+Windows 10 by Microsoft
+
+ffmpeg - https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-01-19-12-58
+
