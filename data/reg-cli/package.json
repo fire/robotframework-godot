@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+  },
+  "bin": "node_modules/reg-cli/dist/cli.js",
+  "devDependencies": {
+    "reg-cli": "^0.17.0"
+  },
+  "pkg": {
+    "assets": [
+      "."
+    ],
+    "targets": [
+      "node12"
+    ]
+  }
+}
