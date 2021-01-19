@@ -1,0 +1,1 @@
+robot --outputdir logs/hello_world  tests/hello_world.robot
