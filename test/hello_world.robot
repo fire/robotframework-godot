@@ -5,10 +5,10 @@ Test Teardown     Stop Remote Server
 Library           SikuliLibrary
 
 *** Variables ***
-${IMAGE_DIR}      ${CURDIR}\\img
+${IMAGE_DIR}      ${CURDIR}\\data
 
 *** Test Cases ***
-Windows Notpad Hellow World
+Windows Notepad Hello World
     Open Windows Start Menu
     Open Notepad
     Input In Notepad
