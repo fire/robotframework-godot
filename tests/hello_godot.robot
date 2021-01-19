@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation     Hello Godot Demo
 Test Setup        Add Needed Image Path
-Test Teardown     Stop Remote Server
 Library           Process
 Library           SikuliLibrary
 
