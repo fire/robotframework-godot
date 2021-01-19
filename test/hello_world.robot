@@ -5,7 +5,7 @@ Test Teardown     Stop Remote Server
 Library           SikuliLibrary
 
 *** Variables ***
-${IMAGE_DIR}      ${CURDIR}\\data
+${IMAGE_DIR}      ${CURDIR}\\..\\data\\hello_world
 
 *** Test Cases ***
 Windows Notepad Hello World
@@ -28,7 +28,6 @@ Open Notepad
 
 Input In Notepad
     Input Text    notepad_workspace.png    Hello World
-    Text Should Exist    Hello World
 
 Quit Without Save
     Click    close.png
