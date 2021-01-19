@@ -6,6 +6,12 @@ Setup
 conda env create -f environment.yml
 ```
 
+Update
+
+```batch
+conda env update
+```
+
 Run
 
 ```batch

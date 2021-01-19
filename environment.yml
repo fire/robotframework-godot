@@ -4,3 +4,4 @@ dependencies:
   - pip:
     - robotframework
     - robotframework-SikuliLibrary
+    - robotframework-screencaplibrary
